@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+}
+
+body{
+    
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);   
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+.board{
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    height: 81.5%;
+    width: 95%;
+    border-radius: 25px;
+    position: relative;
+}
+.ball{
+    height: 25px;
+    width: 25px;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    border-radius: 50%;
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+
+}
+
+
+.leftPaddle{
+    height: 80px;
+    width: 12px;
+    background-color: #e835f8;   
+    border-radius: 10px;
+    position: fixed;
+    left: 4%;
+    top: 70px;
+}
+
+.rightPaddle{
+    height: 80px;
+    width: 12px;
+    background-color: #e835f8; 
+    border-radius: 10px;
+    position: fixed;
+    right: 4%;
+    top: 70px;
+
+}
+
+.scorecard{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.left,.right{
+    display: flex;
+    margin-top: 3px;
+}
+
+.l1,.r1{
+    height: 20px;
+    width: 20px;
+    background-color: rgba(18, 241, 18, 0.918);
+    border-radius: 50%;
+    margin: 5px;
+}
